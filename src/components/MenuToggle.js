@@ -5,14 +5,11 @@ import { ThemeContext } from "../context/ThemeProvider";
 const MenuToggle = ({ setSidebarOpen, sidebarOpen }) => {
   const { colorMode } = React.useContext(ThemeContext);
 
-  console.log(colorMode);
-  const localTheme = localStorage.getItem("color-mode");
-  console.log(localTheme);
   return (
     <StyledMenuToggle
       onClick={() => setSidebarOpen(!sidebarOpen)}
       sidebarOpen={sidebarOpen}
-      colorMode={localTheme || colorMode}
+      colorMode={colorMode}
     >
       <div />
     </StyledMenuToggle>
