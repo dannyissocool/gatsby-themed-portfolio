@@ -15,10 +15,22 @@
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.13.2",
+    "emailjs-com": "^3.2.0",
     "gatsby": "^3.13.1",
+    "gatsby-background-image": "^1.5.3",
+    "gatsby-plugin-image": "^1.14.0",
+    "gatsby-plugin-sharp": "^3.14.0",
     "gatsby-plugin-styled-components": "^4.14.0",
+    "gatsby-plugin-transition-link": "^1.20.5",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-filesystem": "^3.14.0",
+    "gatsby-transformer-remark": "^4.11.0",
+    "gatsby-transformer-sharp": "^3.14.0",
+    "gbimage-bridge": "^0.1.4",
+    "gsap": "^3.8.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-icons": "^4.3.1",
     "styled-components": "^5.3.1"
   }
 }
