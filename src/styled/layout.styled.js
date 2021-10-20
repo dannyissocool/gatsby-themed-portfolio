@@ -4,6 +4,7 @@ export const StyledWrapper = styled.div`
   max-width: 800px;
   margin: 0 auto;
   padding: 0 30px;
+  position: relative;
 
   @media (max-width: 768px) {
     max-width: 500px;

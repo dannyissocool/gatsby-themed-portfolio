@@ -31,13 +31,11 @@ const Hero = () => {
   return (
     <BgImage
       image={pluginImage}
-      // style={{
-      //   margin: "0 auto",
-      //   maxWidth: "100vw",
-      //   position: "relative",
-      //   width: "100vw",
-      //   overflow: "none",
-      // }}
+      style={{
+        width: "100vw",
+        left: "50%",
+        transform: "translateX(-50%)",
+      }}
     >
       <StyledHero colorMode={colorMode}>
         <div>
