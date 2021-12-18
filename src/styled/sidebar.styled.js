@@ -4,8 +4,9 @@ export const StyledSidebar = styled.div`
   z-index: 1;
   position: absolute;
   top: 60px;
-  left: 0;
-  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
 
   height: auto;
   border-color: var(--color-text);
@@ -53,7 +54,7 @@ export const StyledSidebar = styled.div`
     }
 
     to {
-      transform: translateX(0);
+      transform: translateX(-50%);
     }
   }
 `;

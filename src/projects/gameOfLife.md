@@ -1,6 +1,6 @@
 ---
 title: Game of Life
-stack: React, SCSS
+stack: React & SCSS
 slug: game-of-life
 thumb: ../images/thumbnails/gameOfLife.png
 repo: https://github.com/dannyissocool/game-of-life
