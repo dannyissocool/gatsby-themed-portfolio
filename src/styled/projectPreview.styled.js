@@ -9,7 +9,6 @@ export const StyledProjectPreview = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  cursor: pointer;
 
   img {
     width: 70%;

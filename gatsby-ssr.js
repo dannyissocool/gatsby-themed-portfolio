@@ -23,7 +23,7 @@ const MagicScriptTag = () => {
             };
 
             const colorMode = getInitialColorMode();
-
+            console.log(colorMode);
             const root = document.documentElement;
 
             root.style.setProperty(

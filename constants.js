@@ -5,11 +5,11 @@ export const COLORS = {
   },
   background: {
     light: "#fff", // white
-    dark: "#0f2027", // dark blue
+    dark: "linear-gradient(to bottom, #134e5e, #71b280)",
   },
   accent: {
-    light: "rgba(0,0,0,0.1)",
-    dark: "rgba(255,255,255,0.1)",
+    light: "rgba(255,255,255,0.3)",
+    dark: "rgba(0,0,0,0.3)",
   },
   button: {
     light: {

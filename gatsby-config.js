@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.danmeuse.com",
-    title: "dan-portolio-gatsby-themed",
+    title: "Dan Meuse Portfolio",
   },
   plugins: [
     "gatsby-plugin-styled-components",

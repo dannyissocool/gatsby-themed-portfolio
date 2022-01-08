@@ -6,10 +6,7 @@ export const StyledHero = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: ${(props) =>
-    props.colorMode === "dark"
-      ? "rgba(255, 255, 255, 0.3)"
-      : "rgba(0, 0, 0, 0.3)"};
+  background-color: var(--color-accent);
   transition: 0.4s background-color linear;
 
   div {
@@ -17,12 +14,12 @@ export const StyledHero = styled.div`
   }
 
   h3 {
-    color: ${(props) => (props.colorMode === "dark" ? "#000" : "#fff")};
+    color: var(--color-text);
   }
 
   p {
     margin: 30px 20px;
-    color: ${(props) => (props.colorMode === "dark" ? "#000" : "#fff")};
+    color: var(--color-text);
   }
 
   a {
@@ -34,7 +31,7 @@ export const StyledHero = styled.div`
     font-weight: 600;
     white-space: nowrap;
     letter-spacing: 1px;
-    background-color: var(--color-background);
+    background-color: var(--color-accent);
 
     transition: 0.4s background-color linear, 0.4s color linear,
       0.4s outline linear, 0.1s outline-offset linear;

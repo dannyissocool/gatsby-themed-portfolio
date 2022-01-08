@@ -5,8 +5,6 @@ import Layout from "../layout/Layout";
 import { StyledAboutPage } from "../styled/about.styled";
 
 const about = ({ data }) => {
-  console.log(data);
-
   const image = getImage(data.file.childImageSharp.gatsbyImageData);
   return (
     <Layout>
