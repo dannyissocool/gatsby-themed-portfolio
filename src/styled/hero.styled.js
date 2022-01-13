@@ -13,13 +13,15 @@ export const StyledHero = styled.div`
     padding: 20px;
   }
 
-  h3 {
+  h4 {
     color: var(--color-text);
+    transition: 0.4s color linear;
   }
 
   p {
     margin: 30px 20px;
     color: var(--color-text);
+    transition: 0.4s color linear;
   }
 
   a {

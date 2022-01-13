@@ -14,8 +14,9 @@ export const StyledProjectPreview = styled.div`
     width: 70%;
     min-width: 150px;
     max-width: 70%;
-    margin: 0 auto;
+    margin: 5px auto;
     object-position: top;
+    border: 1px solid var(--color-text);
 
     &::before {
       position: absolute;
@@ -28,8 +29,8 @@ export const StyledProjectPreview = styled.div`
   }
 
   h4 {
-    margin: 10px 0;
-    letter-spacing: 1px;
+    padding: 10px 0;
+    letter-spacing: 1.3px;
     text-decoration: underline;
   }
 
@@ -41,10 +42,12 @@ export const StyledProjectPreview = styled.div`
   }
 
   a {
-    padding: 0 10px;
+    margin: 0 5px;
+    padding: 5px 10px;
     font-size: 12px;
     text-decoration: none;
     color: var(--color-button);
+    background: rgba(0, 0, 0, 0.3);
 
     :hover {
       opacity: 0.6;

@@ -13,7 +13,7 @@ export const StyledSidebar = styled.div`
   border-style: solid;
   border-width: 1px 1px 1px 0;
 
-  background-color: var(--color-background);
+  background: var(--color-background);
   transition: background-color 0.4s linear;
 
   animation-duration: 0.5s;
@@ -33,13 +33,14 @@ export const StyledSidebar = styled.div`
       text-align: center;
       color: var(--color-text);
       font-size: 20px;
-      padding: 10px 0;
+      padding: 20px 0;
       max-width: 100%;
       width: 100%;
       overflow: hidden;
 
       :hover {
         opacity: 0.7;
+        border: 1px solid black;
       }
     }
   }

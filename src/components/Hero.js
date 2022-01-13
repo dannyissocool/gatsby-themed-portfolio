@@ -39,7 +39,7 @@ const Hero = () => {
     >
       <StyledHero colorMode={colorMode}>
         <div>
-          <h3>DANNY MEUSE</h3>
+          <h2>DANNY MEUSE</h2>
           <p>
             I'm a US based front-end web developer focused on writing clean +
             efficient code and building smooth user experiences.

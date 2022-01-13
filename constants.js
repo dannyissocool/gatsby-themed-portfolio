@@ -5,7 +5,7 @@ export const COLORS = {
   },
   background: {
     light: "#fff", // white
-    dark: "linear-gradient(to bottom, #134e5e, #71b280)",
+    dark: "linear-gradient(to right, #283c86, #45a247)",
   },
   accent: {
     light: "rgba(255,255,255,0.3)",
@@ -15,12 +15,12 @@ export const COLORS = {
     light: {
       background: "#1a94ff",
       border: "1px solid #fff",
-      color: "#fff",
+      color: "#000",
     },
     dark: {
       background: "#1a94ff",
       border: "1px solid #1a94ff",
-      color: "#1a94ff",
+      color: "#5db2fc",
     },
   },
 };

@@ -29,7 +29,6 @@ const ProjectPreviewList = () => {
       `}
       render={(data) => (
         <StyledProjectPreviewList>
-          {console.log(data)}
           {data.allMarkdownRemark.nodes.map((project, id) => (
             <ProjectPreview
               id={id}

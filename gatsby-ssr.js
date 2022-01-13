@@ -47,13 +47,9 @@ const MagicScriptTag = () => {
             root.style.setProperty(
                 '--color-button',
                 colorMode === 'light'
-                    ? '${COLORS.button.light.background}'
-                    : '${COLORS.button.dark.background}'
-            );
-
-            console.log('Hello from the HTML Header!!!')
-
-            
+                    ? '${COLORS.button.light.color}'
+                    : '${COLORS.button.dark.color}'
+            );            
 
             root.style.setProperty('--initial-color-mode', colorMode);
         })()

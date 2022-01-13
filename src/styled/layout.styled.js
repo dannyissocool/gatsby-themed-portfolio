@@ -14,7 +14,7 @@ export const StyledWrapper = styled.div`
 export const StyledLayout = styled.div`
   background: var(--color-background);
   color: var(--color-text);
-  transition: 0.4s background-color linear, 0.4s color linear;
+  transition: 0.4s background linear, 0.4s color linear;
   height: auto;
   min-height: 100vh;
   position: relative;
