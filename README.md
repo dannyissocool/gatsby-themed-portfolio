@@ -1,3 +1,3 @@
 Portfolio website for Front End Developer Dan Meuse
 
-Live link: danmeuse.com
+Live link: https://danmeuse.com
