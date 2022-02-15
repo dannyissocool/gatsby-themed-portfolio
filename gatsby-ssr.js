@@ -23,7 +23,7 @@ const MagicScriptTag = () => {
             };
 
             const colorMode = getInitialColorMode();
-            console.log(colorMode);
+            
             const root = document.documentElement;
 
             root.style.setProperty(
@@ -52,6 +52,7 @@ const MagicScriptTag = () => {
             );            
 
             root.style.setProperty('--initial-color-mode', colorMode);
+
         })()
     `;
 
@@ -72,7 +73,16 @@ const FallbackStyles = () => {
   );
 };
 
+const MaterialIcons = () => {
+  return (
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    ></link>
+  );
+};
+
 export const onRenderBody = ({ setPreBodyComponents, setHeadComponents }) => {
-  setHeadComponents(<FallbackStyles />);
-  setPreBodyComponents(<MagicScriptTag />);
+  setHeadComponents([<MaterialIcons key="a" />, <FallbackStyles key="b" />]);
+  setPreBodyComponents(<MagicScriptTag key="c" />);
 };
