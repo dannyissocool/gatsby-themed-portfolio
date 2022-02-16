@@ -6,7 +6,7 @@ export const StyledProjectPreview = styled.div`
   margin: 10px 5px;
   height: 250px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
 
@@ -35,7 +35,7 @@ export const StyledProjectPreview = styled.div`
   }
 
   p {
-    text-align: start;
+    text-align: center;
     letter-spacing: 0.3px;
     font-size: 10px;
     margin: 5px 0;

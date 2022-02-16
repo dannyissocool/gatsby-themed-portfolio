@@ -1,6 +1,6 @@
 ---
 title: Semantic-UI Portfolio
-stack: React & Semantic-UI
+stack:
 slug: semantic-portfolio
 thumb: ../images/thumbnails/semanticPortfolio.png
 repo: https://github.com/dannyissocool/dannyissocool.github.io

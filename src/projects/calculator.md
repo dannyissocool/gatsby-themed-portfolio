@@ -1,6 +1,6 @@
 ---
 title: React Calculator
-stack: React + Typescript
+stack:
 slug: calculator
 thumb: ../images/thumbnails/calculator.png
 repo: https://github.com/dannyissocool/calculator-ts

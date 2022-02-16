@@ -1,6 +1,6 @@
 ---
 title: React Pokedex
-stack: React & Tailwind-CSS
+stack:
 slug: react-pokedex
 thumb: ../images/thumbnails/pokedex.png
 repo: https://github.com/dannyissocool/react-pokedex

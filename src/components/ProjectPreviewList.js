@@ -16,7 +16,6 @@ const ProjectPreviewList = () => {
                 repo
                 slug
                 title
-                stack
                 thumb {
                   childrenImageSharp {
                     gatsbyImageData

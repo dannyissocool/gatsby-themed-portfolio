@@ -1,6 +1,6 @@
 ---
 title: Paul Meuse Website
-stack: HTML, JS, React & Styled-Components
+stack:
 slug: paul-meuse-website
 thumb: ../images/thumbnails/paulWebsite.png
 repo: https://github.com/dannyissocool/paul-website

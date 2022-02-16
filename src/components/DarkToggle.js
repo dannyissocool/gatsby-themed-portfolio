@@ -17,11 +17,9 @@ const DarkToggle = () => {
         checked={colorMode === "dark"}
         onChange={(e) => setColorMode(e.target.checked ? "dark" : "light")}
       />
-      {colorMode === "dark" ? (
-        <span class="material-icons">dark_mode</span>
-      ) : (
-        <span class="material-icons">light_mode</span>
-      )}
+      <span class="material-icons">{`${
+        colorMode === "dark" ? `dark` : `light`
+      }_mode`}</span>
     </StyledDarkToggle>
   );
 };
