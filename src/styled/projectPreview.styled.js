@@ -2,13 +2,14 @@ import styled from "styled-components";
 
 export const StyledProjectPreview = styled.div`
   text-align: center;
-  max-width: 100%;
+  max-width: 300px;
   margin: 10px 5px;
-  height: 250px;
+  height: 500px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  border: 1px solid black;
 
   img {
     width: 70%;
