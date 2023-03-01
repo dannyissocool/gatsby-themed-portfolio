@@ -4,17 +4,20 @@ export const StyledProjectPreview = styled.div`
   text-align: center;
   max-width: 300px;
   margin: 10px 5px;
-  height: 500px;
+  /* height: 500px; */
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  border: 1px solid black;
+  border: 1px solid var(--color-text);
+
+  section {
+    padding: 10px 10px 20px 10px;
+  }
 
   img {
-    width: 70%;
-    min-width: 150px;
-    max-width: 70%;
+    width: 90%;
+    height: 100px;
     margin: 5px auto;
     object-position: top;
     border: 1px solid var(--color-text);
@@ -48,7 +51,7 @@ export const StyledProjectPreview = styled.div`
     font-size: 12px;
     text-decoration: none;
     color: var(--color-button);
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.7);
 
     :hover {
       opacity: 0.6;
@@ -56,6 +59,6 @@ export const StyledProjectPreview = styled.div`
   }
 
   @media (min-width: 768px) {
-    height: 300px;
+    /* height: 300px; */
   }
 `;

@@ -7,4 +7,4 @@ repo: https://github.com/dannyissocool/paul-website
 githubPages: https://dannyissocool.github.io/paul-website/
 ---
 
-Website I built for my brother to showcase his art and connect with potential clients. Built with React and Styled-Components.
+Fake website I built for my brother. Built with React and Styled-Components.

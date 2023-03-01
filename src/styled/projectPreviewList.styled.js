@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyledProjectPreviewList = styled.div`
   display: grid;
   grid-template-columns: 1fr;
+  justify-items: center;
 
   @media (min-width: 768px) {
     margin: 0 auto;

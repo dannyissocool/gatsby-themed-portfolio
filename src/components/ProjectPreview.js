@@ -26,19 +26,21 @@ const ProjectPreview = ({
 
   return (
     <StyledProjectPreview>
-      <h4>{title}</h4>
-      <GatsbyImage image={thumb} alt="" />
+      <section>
+        <h4>{title}</h4>
+        <GatsbyImage image={thumb} alt="" />
 
-      <div dangerouslySetInnerHTML={{ __html: html }}></div>
-      <h5>{stack}</h5>
-      <div>
-        <a target="_blank" rel="noreferrer" href={repo}>
-          Github Repo
-        </a>
-        <a target="_blank" rel="noreferrer" href={githubPages}>
-          Live Link
-        </a>
-      </div>
+        <div dangerouslySetInnerHTML={{ __html: html }}></div>
+        <h5>{stack}</h5>
+        <div>
+          <a target="_blank" rel="noreferrer" href={repo}>
+            Github Repo
+          </a>
+          <a target="_blank" rel="noreferrer" href={githubPages}>
+            Live Link
+          </a>
+        </div>
+      </section>
     </StyledProjectPreview>
   );
 };
