@@ -17,7 +17,7 @@ export const StyledProjectPreview = styled.div`
 
   img {
     width: 90%;
-    height: 100px;
+    height: 100px !important;
     margin: 5px auto;
     object-position: top;
     border: 1px solid var(--color-text);
@@ -27,7 +27,6 @@ export const StyledProjectPreview = styled.div`
       top: 0;
       left: 0;
       width: 100%;
-      height: 100%;
       background: rgba(0, 0, 0, 0.5);
     }
   }
