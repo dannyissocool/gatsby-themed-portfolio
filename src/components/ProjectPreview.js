@@ -32,7 +32,7 @@ const ProjectPreview = ({
 
         <div dangerouslySetInnerHTML={{ __html: html }}></div>
         <h5>{stack}</h5>
-        <div>
+        <div className="links">
           <a target="_blank" rel="noreferrer" href={repo}>
             Github Repo
           </a>

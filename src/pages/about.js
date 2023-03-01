@@ -9,12 +9,12 @@ const about = ({ data }) => {
   return (
     <Layout>
       <StyledAboutPage>
-        <GatsbyImage image={image} alt="" />
         <p>
           I'm Danny Meuse. I am a Front-End Web Developer focused on React. I
           help clients build modern interactive and responsive websites. Contact
           me for more info.
         </p>
+        <GatsbyImage image={image} alt="" />
       </StyledAboutPage>
     </Layout>
   );

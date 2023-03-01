@@ -2,17 +2,15 @@ import styled from "styled-components";
 
 export const StyledAboutPage = styled.div`
   min-height: 50vh;
-  max-width: 600px;
+  max-width: 90%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column-reverse;
 
   img {
     margin: 0 auto;
-    width: 50%;
-    max-width: 100%;
     border-radius: 20px;
-
-    :hover {
-    }
+    width: 70%;
   }
 
   p {
@@ -23,12 +21,16 @@ export const StyledAboutPage = styled.div`
 
   @media (min-width: 768px) {
     margin: 50px auto;
-    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 
+    img {
+      width: 100%;
+    }
+
     p {
-      margin: 0 10px;
+      margin: 0 30px;
     }
   }
 `;

@@ -44,8 +44,19 @@ export const StyledProjectPreview = styled.div`
     margin: 5px 0;
   }
 
+  div.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 60%;
+    max-width: 80%;
+    margin: 0 auto;
+    white-space: nowrap;
+  }
+
   a {
-    margin: 0 5px;
+    width: 50%;
+    margin: 5px auto;
     padding: 5px 10px;
     font-size: 12px;
     text-decoration: none;
@@ -58,6 +69,13 @@ export const StyledProjectPreview = styled.div`
   }
 
   @media (min-width: 768px) {
-    /* height: 300px; */
+    div.links {
+      flex-direction: row;
+      width: auto;
+    }
+
+    a {
+      margin: 5px 5px 0 5px;
+    }
   }
 `;
